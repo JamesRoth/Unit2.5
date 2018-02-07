@@ -9,6 +9,8 @@ black=Color(0x000000, 1) #this is the color black
 
 blackOutline=Linesytle(1,black)
 
-redRectangle=RectangleAsset(200, 100, 
+redRectangle=RectangleAsset(200,100,blackOutline,red) #(width, height, outline, fill color)
+
+Sprite(redRectangle)
 
 App().run()
