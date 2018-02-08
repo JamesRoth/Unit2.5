@@ -5,10 +5,12 @@
 from ggame import *
 
 blackOutline=LineStyle (0.5, black)
+whiteOutline=LineStyle (2, white)
 
-blue=Color(0x0000ff, 1)
+blue=Color(0x8890D5, 1)
 
 blueSquare=RectangleAsset(300, 125, blackOutline, blue)
+blueTriangle=PolygonAsset([(160, 200), (360, 200), (260, 125)])
 
 Sprite(blueSquare, (200,200))
 
