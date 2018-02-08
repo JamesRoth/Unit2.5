@@ -7,7 +7,7 @@ from ggame import *
 red=Color(0xff0000, 1) #this is the color red
 black=Color(0x000000, 1) #this is the color black
 green=Color(0x00ff00, 1) #this is the color green
-blue=Color(0x0000ff, 1) #this is the color red
+blue=Color(0x0000ff, 1) #this is the color blue
 
 blackOutline=LineStyle(1,black)
 
