@@ -23,6 +23,6 @@ Sprite(blueCircle,(100, 100)) #Sprite(spriteName, (x, y))
 Sprite(greenEllipse, (200, 400)) #Sprite(spriteName, (x, y))
 Sprite(blackLine)
 Sprite(redTriangle)
-Sprite(text, 300, 200) #text(sprite name, x, y)
+Sprite(text, (300, 200)) #text(sprite name, x, y)
 
 App().run()
