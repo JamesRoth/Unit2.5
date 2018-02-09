@@ -10,9 +10,9 @@ whiteOutline=LineStyle (2, white)
 blue=Color(0x8890D5, 1)
 
 blueSquare=RectangleAsset(300, 125, blackOutline, blue)
-blueTriangle=PolygonAsset([(160, 200), (360, 200), (260, 125)])
+blueTriangle=PolygonAsset([(100, 300), (500, 300), (300, 225)], whiteOutline, blue)
 
 Sprite(blueSquare, (200,200))
-Sprite(blueTriangle)
+Sprite(blueTriangle, (150,125))
 
 App().run()
