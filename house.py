@@ -13,5 +13,6 @@ blueSquare=RectangleAsset(300, 125, blackOutline, blue)
 blueTriangle=PolygonAsset([(160, 200), (360, 200), (260, 125)])
 
 Sprite(blueSquare, (200,200))
+Sprite(blueTriangle)
 
 App().run()
