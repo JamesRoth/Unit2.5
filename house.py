@@ -4,7 +4,7 @@
 
 from ggame import *
 
-blackOutline=LineStyle (0.5, black)
+blackOutline=LineStyle (1, black)
 whiteOutline=LineStyle (2, white)
 
 blue=Color(0x8890D5, 1)
