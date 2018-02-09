@@ -4,15 +4,15 @@
 
 from ggame import *
 
-red=Color(0xff0000)
-yellow=Color(0xffff00)
-black=Color(0x000000)
+red=Color(0xff0000,1)
+yellow=Color(0xffff00,1)
+black=Color(0x000000,1)
 
 noOutline=LineStyle(0, black)
 
-bar1=RectangeAsset(500, 100, noOutline, black)
-bar2=RectangeAsset(500, 100, noOutline, red)
-bar3=RectangeAsset(500, 100, noOutline, yellow)
+bar1=RectangleAsset(500, 100, noOutline, black)
+bar2=RectangleAsset(500, 100, noOutline, red)
+bar3=RectangleAsset(500, 100, noOutline, yellow)
 
 Sprite(bar1, (0,0))
 Sprite(bar2, (0,100))
