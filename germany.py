@@ -8,7 +8,7 @@ red=Color(0xff0000)
 yellow=Color(0xffff00)
 black=Color(0x000000)
 
-noOutline=LineStyle(black, 0)
+noOutline=LineStyle(0, black)
 
 bar1=RectangeAsset(500, 100, noOutline, black)
 bar2=RectangeAsset(500, 100, noOutline, red)
