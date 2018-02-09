@@ -10,12 +10,12 @@ black=Color(0x000000,1)
 
 noOutline=LineStyle(0, black)
 
-bar1=RectangleAsset(500, 100, noOutline, black)
-bar2=RectangleAsset(500, 100, noOutline, red)
-bar3=RectangleAsset(500, 100, noOutline, yellow)
+bar1=RectangleAsset(500, 90, noOutline, black)
+bar2=RectangleAsset(500, 90, noOutline, red)
+bar3=RectangleAsset(500, 90, noOutline, yellow)
 
 Sprite(bar1, (0,0))
-Sprite(bar2, (0,100))
-Sprite(bar3, (0,200))
+Sprite(bar2, (0,90))
+Sprite(bar3, (0,180))
 
 App().run()
