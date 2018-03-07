@@ -9,7 +9,7 @@ code=input("Enter an RGB code: ")
 color=Color(code, 1)
 
 text=TextAsset(name)
-rectangle=RectangleAsset(500,800, color)
+rectangle=RectangleAsset(500, 800, , color)
 
 Sprite(text, (400,300))
 Sprite(rectangle)
