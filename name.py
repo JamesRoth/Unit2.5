@@ -8,6 +8,6 @@ color=Color("0x" + input("Enter an RGB code: "), 1)
 
 text=TextAsset(name, fill=color)
 
-Sprite(text, (300,300)
+Sprite(text, (300,300))
 
 App().run()
