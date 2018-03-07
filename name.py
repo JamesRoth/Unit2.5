@@ -4,7 +4,9 @@
 
 from ggame import *
 name=input("Enter your name: ")
-color=Color("0x" + input("Enter an RGB code: "), 1)
+
+code=input("enter an RGB code: ")
+color=(code, 1)
 
 text=TextAsset(name, fill=color)
 
