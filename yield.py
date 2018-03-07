@@ -2,6 +2,8 @@
 #3/7/18
 #yield.py - yield sign
 
+from ggame import *
+
 red=Color(0xff0000, 1)
 redOutline=LineStyle(red, 1)
 
