@@ -9,10 +9,10 @@ white=Color(0xffffff, 1)
 whiteOutline=LineStyle(1, white)
 redOutline=LineStyle(1, red)
 
-whiteTriangle=PolygonAsset([(10,10), (490,10), (250,490)], whiteOutline, white)
+whiteTriangle=PolygonAsset([(30,20), (460,20), (250,470)], whiteOutline, white)
 redTriangle=PolygonAsset([(0,0), (500,0), (250,500)], redOutline, red)
 
 Sprite(redTriangle)
-Spite(whiteTriangle)
+Sprite(whiteTriangle, (30, 20))
 
 App().run()
