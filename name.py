@@ -10,9 +10,9 @@ color=Color(code, 1)
 outline=LineStyle(1, color)
 
 text=TextAsset(name)
-rectangle=RectangleAsset(500, 800, color)
+rectangle=RectangleAsset(500, 1600, outline, color)
 
-Sprite(text, (400,300))
 Sprite(rectangle)
+Sprite(text, (400,300))
 
 App().run()
