@@ -10,7 +10,7 @@ color=Color(code, 1)
 outline=LineStyle(1, color)
 
 text=TextAsset(name)
-rectangle=RectangleAsset(500, 1600, outline, color)
+rectangle=RectangleAsset(1600, 800, outline, color)
 
 Sprite(rectangle)
 Sprite(text, (400,300))
