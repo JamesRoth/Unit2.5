@@ -13,6 +13,6 @@ text=TextAsset(name)
 rectangle=RectangleAsset(1600, 800, outline, color)
 
 Sprite(rectangle)
-Sprite(text, (400,300))
+Sprite(text, (475,275))
 
 App().run()
